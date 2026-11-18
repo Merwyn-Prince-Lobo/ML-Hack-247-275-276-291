@@ -1,0 +1,132 @@
+
+# ==========================================
+# HACKATHON PROJECT - GITIGNORE
+# ==========================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account*.json
+
+# Node.js / React / Vite / Next.js
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.next/
+.nuxt/
+.output/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+.eggs/
+.pyre/
+.ipynb_checkpoints/
+
+# Java
+*.class
+*.jar
+*.war
+target/
+.gradle/
+.gradle-cache/
+out/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# Test and coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+test-results/
+playwright-report/
+blob-report/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local storage and uploads
+uploads/
+storage/
+local-data/
+
+# Deployment / cloud secrets
+.vercel/
+.netlify/
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Miscellaneous
+*.pid
+*.seed

@@ -1,0 +1,19 @@
+{
+  "trip_id": "00000000",
+  "observations": 2503,
+  "model": "HistGradientBoosting",
+  "gap_reset_indices": [],
+  "route_break_indices": [
+    114,
+    115
+  ],
+  "inference_seconds": 7.2104171999963,
+  "metrics": {
+    "top1_accuracy": 0.9500599280862965,
+    "macro_f1": 0.8059784705351987,
+    "macro_precision": 0.8132743897300114,
+    "macro_recall": 0.8043018776693556,
+    "reference_alignment_distance_median_m": 6.052132199274885
+  },
+  "evaluation_note": "Metrics use weak point labels derived from ordered reference route."
+}

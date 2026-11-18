@@ -1,0 +1,27 @@
+{
+  "model_family": "HistGradientBoosting",
+  "use_tuned": true,
+  "parameters": {
+    "learning_rate": 0.11607977577339215,
+    "max_leaf_nodes": 26,
+    "l2_regularization": 2.3251648429769056,
+    "max_iter": 156
+  },
+  "beta": 15.0,
+  "gap_s": 60.0,
+  "candidate_k": 8,
+  "features": [
+    "distance_m",
+    "heading_disagreement",
+    "projection_fraction",
+    "segment_length_m",
+    "speed_mps",
+    "time_gap_s",
+    "distance_rank",
+    "distance_above_best_m",
+    "previous_distance_m",
+    "next_distance_m",
+    "heading_available"
+  ],
+  "seed": 352
+}

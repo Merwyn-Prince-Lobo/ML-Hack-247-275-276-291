@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - "./data/Student folder/student_test:/evaluation:ro"
+    environment:
+      PATHSNAP_EVAL_DIR: /evaluation
+  ui:
+    image: nginx:alpine
+    ports:
+      - "8501:80"
+    volumes:
+      - "./ui:/usr/share/nginx/html:ro"
