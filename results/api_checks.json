@@ -1,0 +1,130 @@
+{
+  "health": {
+    "status": "ok",
+    "model": "HistGradientBoosting",
+    "mode": "student-test-development"
+  },
+  "passed": 10,
+  "trips": [
+    {
+      "trip_id": "00000000",
+      "observations": 2503,
+      "inference_seconds": 7.2104171999963,
+      "metrics": {
+        "top1_accuracy": 0.9500599280862965,
+        "macro_f1": 0.8059784705351987,
+        "macro_precision": 0.8132743897300114,
+        "macro_recall": 0.8043018776693556,
+        "reference_alignment_distance_median_m": 6.052132199274885
+      }
+    },
+    {
+      "trip_id": "00000007",
+      "observations": 1354,
+      "inference_seconds": 1.5511501000146382,
+      "metrics": {
+        "top1_accuracy": 0.861890694239291,
+        "macro_f1": 0.9452779814466512,
+        "macro_precision": 0.952755905511811,
+        "macro_recall": 0.9429573544024028,
+        "reference_alignment_distance_median_m": 4.512028436923263
+      }
+    },
+    {
+      "trip_id": "00000009",
+      "observations": 1049,
+      "inference_seconds": 4.205130700021982,
+      "metrics": {
+        "top1_accuracy": 0.899904671115348,
+        "macro_f1": 0.8663763047865811,
+        "macro_precision": 0.8785703408818988,
+        "macro_recall": 0.8640052716685882,
+        "reference_alignment_distance_median_m": 4.706277189991897
+      }
+    },
+    {
+      "trip_id": "00000040",
+      "observations": 2995,
+      "inference_seconds": 2.841396400006488,
+      "metrics": {
+        "top1_accuracy": 0.9078464106844741,
+        "macro_f1": 0.8584417393968979,
+        "macro_precision": 0.8714990633081177,
+        "macro_recall": 0.8580930415598379,
+        "reference_alignment_distance_median_m": 4.907739491348918
+      }
+    },
+    {
+      "trip_id": "00000052",
+      "observations": 262,
+      "inference_seconds": 0.31948150001699105,
+      "metrics": {
+        "top1_accuracy": 0.9923664122137404,
+        "macro_f1": 0.9781985083189902,
+        "macro_precision": 0.9759036144578314,
+        "macro_recall": 0.9849397590361446,
+        "reference_alignment_distance_median_m": 4.16711532010012
+      }
+    },
+    {
+      "trip_id": "00000056",
+      "observations": 3958,
+      "inference_seconds": 21.107548800006043,
+      "metrics": {
+        "top1_accuracy": 0.9077817079332996,
+        "macro_f1": 0.8929714786362392,
+        "macro_precision": 0.9029426879120804,
+        "macro_recall": 0.8978922767339815,
+        "reference_alignment_distance_median_m": 4.784256815649211
+      }
+    },
+    {
+      "trip_id": "00000065",
+      "observations": 768,
+      "inference_seconds": 2.7069969999720342,
+      "metrics": {
+        "top1_accuracy": 0.78515625,
+        "macro_f1": 0.7787883768946914,
+        "macro_precision": 0.7992952248054288,
+        "macro_recall": 0.7907220802628966,
+        "reference_alignment_distance_median_m": 4.396687997925731
+      }
+    },
+    {
+      "trip_id": "00000076",
+      "observations": 1486,
+      "inference_seconds": 15.282412899949122,
+      "metrics": {
+        "top1_accuracy": 0.8916554508748318,
+        "macro_f1": 0.710692775431918,
+        "macro_precision": 0.738916399348054,
+        "macro_recall": 0.7037850913863788,
+        "reference_alignment_distance_median_m": 6.827260933388127
+      }
+    },
+    {
+      "trip_id": "00000077",
+      "observations": 3911,
+      "inference_seconds": 3.0466242999536917,
+      "metrics": {
+        "top1_accuracy": 0.658399386346203,
+        "macro_f1": 0.5982850611740662,
+        "macro_precision": 0.6267857522538266,
+        "macro_recall": 0.599624338798236,
+        "reference_alignment_distance_median_m": 6.099527959196151
+      }
+    },
+    {
+      "trip_id": "00000091",
+      "observations": 874,
+      "inference_seconds": 1.6515256999991834,
+      "metrics": {
+        "top1_accuracy": 0.8272311212814645,
+        "macro_f1": 0.7558904289603651,
+        "macro_precision": 0.7717853593434989,
+        "macro_recall": 0.7640895596239485,
+        "reference_alignment_distance_median_m": 4.385555899278625
+      }
+    }
+  ]
+}

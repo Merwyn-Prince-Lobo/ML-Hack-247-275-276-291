@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf -text
+*.joblib -text
+*.sqlite3 -text
+*.png -text
+*.jpg -text
+*.zip -text
