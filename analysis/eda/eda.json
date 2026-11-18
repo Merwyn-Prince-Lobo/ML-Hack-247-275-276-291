@@ -1,0 +1,20 @@
+{
+  "train": {
+    "trips": 80,
+    "observations": 208417,
+    "missing_values": 0,
+    "max_gap_seconds": 153064.0,
+    "one_second_fraction": 0.9650134157638826,
+    "total_isolated_nodes": 0,
+    "trips_with_multiple_components": 79
+  },
+  "student_test": {
+    "trips": 10,
+    "observations": 19160,
+    "missing_values": 0,
+    "max_gap_seconds": 210.0,
+    "one_second_fraction": 0.9862140992167102,
+    "total_isolated_nodes": 0,
+    "trips_with_multiple_components": 10
+  }
+}
