@@ -1,0 +1,33 @@
+{
+  "partition": "train",
+  "trip_id": "00000003",
+  "observations": 821,
+  "nodes": 9138,
+  "directed_arcs": 18028,
+  "weak_components": 42,
+  "isolated_nodes": 0,
+  "missing_numeric_values": 0,
+  "duplicate_timestamps": 0,
+  "largest_time_gap_s": 2.0,
+  "candidate_count_per_observation": 8,
+  "candidate_feature_rows": 6568,
+  "features": [
+    "distance_m",
+    "heading_disagreement",
+    "projection_fraction",
+    "segment_length_m",
+    "speed_mps",
+    "time_gap_s",
+    "distance_rank",
+    "distance_above_best_m",
+    "previous_distance_m",
+    "next_distance_m",
+    "heading_available"
+  ],
+  "training_observations": 200,
+  "training_candidate_rows": 1600,
+  "candidate_miss_rate": 0.008526187576126675,
+  "label_note": "Weak labels from ordered reference route; used only for training/evaluation.",
+  "projection": "Local equirectangular metric approximation about network mean coordinates.",
+  "checks": "Finite values, expected columns, coordinate ranges, arc bounds, timestamp ordering; no imputation required."
+}
